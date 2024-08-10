@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.hero {
+    background: url('https://img.freepik.com/free-photo/different-pieces-puzzle-arrangement-with-copy-space_23-2148642295.jpg?w=826&t=st=1723291045~exp=1723291645~hmac=7a3f22e9cef38c28d48bf1d544ad513a5e7ae9729714110511c87b279da8a05e') no-repeat center center/cover;
+    color: orangered;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container h1{
+    color: orangered;
+    padding-top: 4rem;
+}
+.lead {
+    color: black;
+}
+
+.button {
+    background-color: transparent;
+    box-shadow: 0 10px 8px rgba(73, 72, 72, 0.5); 
+    backdrop-filter: blur(10px); 
+    border: 1px;
+    transition: 0.5s;
+    border-radius: 10px;
+    height: 40px;
+    margin: rem;
+}
+.button:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
+#get-involved {
+    background: url('https://img.freepik.com/free-vector/global-volunteer-solidarity-hands-up-banner-with-earth-map-vector_1017-48268.jpg?w=996&t=st=1723290139~exp=1723290739~hmac=225a1f3b09c167e31b69a81d386e0c1db5c6c20c642a007cad007aa69e53d60a') no-repeat center center/cover;
+    padding: 100px 0;
+     
+}
+#get-involved:hover{
+    background-color: red;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    height: 60px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+.bi-facebook{color: blue;}
+.bi-instagram{color: palevioletred;}
+#contact a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero p {
+        font-size: 0.875rem;
+    }
+    .navbar-brand h2 {
+        font-size: 1.5rem;
+    }
+}
+.nav-link:hover{
+    color: white;
+    background-color:orangered;
+
+
+}
+.nav-link{
+    border-radius: 20px;
+}
+
+
+
